@@ -1,0 +1,68 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+video{
+    width: 100%;
+}
+
+.screen{
+    width: 20rem;
+    position: relative;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 1rem;
+    display: flex;
+    justify-content: end;
+
+}
+
+.right{
+    position: absolute;
+    bottom: 2rem;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    gap: 1rem;
+}
+
+main{
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 0.3rem;
+}
+
+.upper{
+    display: flex;
+    gap: 1rem;
+    color: #fff;
+    margin: 1rem 0;
+    font-size: 1.5rem;
+}
+
+i{
+    font-size: 1.7rem;
+    color: #fff;
+}
+
+p{
+    font-size: 1rem;
+    color: #fff;
+}
+
